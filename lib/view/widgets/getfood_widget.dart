@@ -29,7 +29,7 @@ Widget getFoodWidget(BuildContext context, ApiResponse apiResponse) {
                 margin: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
-                    color: Apptheme.backbuttonColor),
+                    color: Apptheme.secondaryColor),
                 child: Column(
                   children: [
                     const SizedBox(height: 20),

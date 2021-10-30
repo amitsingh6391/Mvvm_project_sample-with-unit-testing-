@@ -11,7 +11,7 @@ void main() {
       //** TEST 1  */
       // HERE ARE TESTING OUR API STATUS IS IT COMPLETED OR NOT AFTER CALLING OUR METHOD.
       test(
-        "testing food fetch response",
+        "testing we food response is getting or not",
         () async {
           await foodViewModel.fetchFoodData("");
 
@@ -40,7 +40,7 @@ void main() {
 
   FoodViewModal foodViewModel = FoodViewModal();
   test(
-    " If are not calling our method then our status should be intial",
+    " If we are not calling our method then our status should be intial",
     () async {
       expect(foodViewModel.response.status, Status.INITIAL);
     },
