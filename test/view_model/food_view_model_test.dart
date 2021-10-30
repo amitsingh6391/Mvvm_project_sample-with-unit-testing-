@@ -40,7 +40,7 @@ void main() {
 
   FoodViewModal foodViewModel = FoodViewModal();
   test(
-    " If are not calling our method then our status should be intial",
+    " If we are not calling our method then our status should be intial",
     () async {
       expect(foodViewModel.response.status, Status.INITIAL);
     },
