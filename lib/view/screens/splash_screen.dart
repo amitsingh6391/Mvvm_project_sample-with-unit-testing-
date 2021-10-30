@@ -34,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     bool? logedInStatus = pref.getBool("logedIn");
 
-    Timer(const Duration(seconds: 1), () {
+    Timer(const Duration(seconds: 4), () {
       Navigator.push(
         context,
         MaterialPageRoute(
